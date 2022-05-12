@@ -1,0 +1,11 @@
+Algoritmus fogalma, jellemzői
+algoritmus elemek
+algoritmus leíró eszközök
+
+Egyenlőség:
+legyen egyenlő
+x = 2; --> legtöbb program nyelvben
+x := 2 --> előfordulhat ez is
+
+egyenlő-e?
+x == 2
