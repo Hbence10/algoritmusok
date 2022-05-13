@@ -4,7 +4,7 @@ gomb.addEventListener("click", Jatek);
 
 
 function Jatek (){
-    let szam = Math.floor(Math.random() * 10) + 1;
+    let szam = Math.floor(Math.random() * 100) + 1;
     let sz = 1; 
     let tipp = prompt("Adj meg egy számot: ");
 
