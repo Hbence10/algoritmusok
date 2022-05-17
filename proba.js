@@ -7,18 +7,21 @@ function Jatek (){
     let szam = Math.floor(Math.random() * 100) + 1;
     let sz = 1; 
     let tipp = document.getElementById('szam').value;  
-    
+    let nagyobb = document.getElementById('text');
+    let kisebb = document.getElementById('text');
+
     while (tipp != szam) {
         if (tipp < szam) {
-            alert("nagyobb")
+            nagyobb.innerHTML = "nagyobb"
         } else {
-            alert("kisebb")
-        }
+           
+            kisebb.innerHTML = "kisebb"
+         }
         //tippek számának növelése
         sz++;
 
         //Következő tipp
-        tipp = prompt("Adjad meg mégegyszer")
+        tipp = document.getElementById('szam').value;
     }
 
     let eredmeny = document.getElementById('eredmeny');
