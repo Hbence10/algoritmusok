@@ -52,3 +52,20 @@ Fogalmak:
 - folyamatábra
 
 draw.io
+
+ # Alpogrammok (szubrutin)
+ - eljárás (procedure)
+ - függvény (function)
+
+## Folyamata: 
+- Amikor az alprogramot végre akarunk hajtani : alpogram hívás (call)
+- Amikor az alpogram végez akkor visszatér (return) a hívó programba , lövetkező utasítására
+
+## Rekurzió
+- amikor egy alprogramm saját magát meghívja 
+
+Paraméter: bemenő (input) adat a hívott alprogramm számára
+
+- Visszatérési érték: az az érték amit az alprogramm visszaad
+- ha van visszatérési érték: függvény
+Ha nincs: eljárás (procedura)
