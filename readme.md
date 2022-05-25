@@ -68,4 +68,22 @@ Paraméter: bemenő (input) adat a hívott alprogramm számára
 
 - Visszatérési érték: az az érték amit az alprogramm visszaad
 - ha van visszatérési érték: függvény
-Ha nincs: eljárás (procedura)
+- Ha nincs: eljárás (procedura)
+
+
+## Példák
+1.
+2.
+
+--------------------------------------------------------------
+3. függvény, paraméterrel
+pl: Kör terület
+
+function kör_terület(sugar){
+    ter = sugar*sugar*pi
+    return ter;
+}
+
+Függvény hívása: értékadó utasításban:
+sugar = 5,2
+terület = kör_terület(sugar) --> terület = 84,94s
