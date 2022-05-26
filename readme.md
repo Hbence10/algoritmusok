@@ -73,7 +73,7 @@ Paraméter: bemenő (input) adat a hívott alprogramm számára
 
 ## Példák
 1.
-2.
+2. 
 
 --------------------------------------------------------------
 3. függvény, paraméterrel
@@ -87,3 +87,6 @@ function kör_terület(sugar){
 Függvény hívása: értékadó utasításban:
 sugar = 5,2
 terület = kör_terület(sugar) --> terület = 84,94s
+
+document.getElementById('content');
+köszöntő eljárás
