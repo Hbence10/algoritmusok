@@ -90,3 +90,15 @@ terület = kör_terület(sugar) --> terület = 84,94s
 
 document.getElementById('content');
 köszöntő eljárás
+
+----
+## Alprogrammok (eljárások)
+
+function functionnak neve(paraméterek) {
+    // code to be executed
+}
+
+példa: 
+function myFunction (a, b) {
+    return a*b;
+}
